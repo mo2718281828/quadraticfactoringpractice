@@ -21,7 +21,7 @@ const questions = [
   { quadratic: '6z^2 + 13z + 6', correctAnswer: '(3z + 2)(2z + 3)', incorrectAnswers: ['(2z + 1)(3z + 2)', '\\text{Cannot be factored}', '(z + 2)(6z + 3)', '(3z + 6)(2z + 1)', '(3z + 1)(z + 6)'] },
   { quadratic: 'x^2 - 8x + 12', correctAnswer: '(x - 6)(x - 2)', incorrectAnswers: ['(x + 6)(x - 2)', '(x + 3)(x - 4)', '\\text{Cannot be factored}', '(x + 2)(x - 6)', '(x + 1)(x - 6)'] },
   { quadratic: '5x^2 - 20', correctAnswer: '5(x + 2)(x - 2)', incorrectAnswers: ['(5x + 2)(x - 2)', '5(x + 4)(x - 4)', '\\text{Cannot be factored}', 'x(5x + 4)', '(5x + 4)(x - 2)'] },
-  { quadratic: '7m^2 - 49', correctAnswer: '7(m + 7)(m - 7)', incorrectAnswers: ['(m + 7)(m - 7)', '\\text{Cannot be factored}', '7(m + 1)(m - 1)', 'm(m + 7)(m - 7)', '(7m + 7)(m - 7)'] },
+  { quadratic: '2m^2 - 98', correctAnswer: '2(m + 7)(m - 7)', incorrectAnswers: ['(m + 7)(m - 14)', '\\text{Cannot be factored}', '2(m + 49)(m - 49)', '(m + 2)(m - 49)', '(2m + 2)(m - 7)'] },
   
   { quadratic: 'x^2 - 2x + 1', correctAnswer: '(x - 1)^2', incorrectAnswers: ['(x + 1)(x - 1)', '(x - 2)(x + 1)', '\\text{Cannot be factored}', '(x - 1)(x + 2)', '(x + 1)(x + 1)'] },
   { quadratic: '6a^2 + 11a + 3', correctAnswer: '(3a + 1)(2a + 3)', incorrectAnswers: ['(2a + 3)(3a + 1)', '\\text{Cannot be factored}', '(a + 3)(6a + 1)', '(2a + 3)(2a + 3)', '(3a + 3)(a + 2)'] },
