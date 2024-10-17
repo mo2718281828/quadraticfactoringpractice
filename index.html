@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factor Quadratics Practice</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="middle-column">
+      <div class="question-section">
+        <h1 id="questionText">Factorize the quadratic</h1>
+        <button id="nextQuestionBtn" class="next-btn" style="display: none;">Next Question</button>
+      </div>
+
+      <div id="options" class="options-grid"></div>
+    </div>
+
+    <div class="right-column">
+      <h2>Score Sheet</h2>
+      <table id="scoreSheet">
+        <thead>
+          <tr>
+            <th>Correct Answer</th>
+            <th>Change</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
