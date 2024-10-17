@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.middle-column {
+  width: 60%;
+  text-align: center;
+  position: relative;
+}
+
+.question-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.question-section h1 {
+  font-size: 18px;
+  margin-right: 10px; /* Add space between question text and next button */
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  margin-top: 5px;
+}
+
+.options-grid button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options-grid button:hover {
+  background-color: #45a049;
+}
+
+.next-btn {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.next-btn:hover {
+  background-color: #1976D2;
+}
+
+.right-column {
+  width: 25%;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td.green {
+  color: green;
+}
+
+td.red {
+  color: red;
+}
+
+td.score {
+  text-align: center;
+  font-weight: bold;
+}
